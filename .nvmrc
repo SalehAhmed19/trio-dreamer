@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Load NVM
+. $NVM_DIR/nvm.sh
+
+# Use the Node.js version specified in .nvmrc
+nvm use
+
+# Start your Node.js application
+node app.js
